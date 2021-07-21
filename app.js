@@ -1,4 +1,7 @@
-/* class NavSelector{
+/* 
+Old Code
+
+class NavSelector{
     constructor(){
         this.card = document.querySelectorAll('.portfolio__carousel__slide__item'); 
         this.navSelector = document.querySelector('.sliderNav__menu__item');

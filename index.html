@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.min.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <nav class="sliderNav">
+      <ul class="sliderNav__menu">
+        <li class="sliderNav__menu__item" data-slides="all">Tutti</li>
+        <li class="sliderNav__menu__item" data-slides="matrimoni">Matrimoni</li>
+        <li class="sliderNav__menu__item" data-slides="videoclip">Videoclip</li>
+        <li class="sliderNav__menu__item" data-slides="videoclip">
+          Fotografia
+        </li>
+      </ul>
+    </nav>
+
+    <div class="portfolio__carousel">
+      <button class="btn prev" id="prev">Prev</button>
+      <button class="btn next" id="next">Next</button>
+      <div class="portfolio__carousel__slide">
+        <div
+          class="portfolio__carousel__slide__item"
+          data-slides="matrimoni"
+          id="card"
+        >
+          <h2>Matrimonio 1</h2>
+          <div class="portfolio__carousel__slide__item__caption">
+            <p>Info</p>
+          </div>
+        </div>
+
+        <div
+          class="portfolio__carousel__slide__item"
+          data-slides="matrimoni"
+          id="card"
+        >
+          <h2>Matrimonio 2</h2>
+          <div class="portfolio__carousel__slide__item__caption">
+            <p>Info</p>
+          </div>
+        </div>
+
+        <div
+          class="portfolio__carousel__slide__item"
+          data-slides="matrimoni"
+          id="card"
+        >
+          <h2>Matrimonio 3</h2>
+          <div class="portfolio__carousel__slide__item__caption">
+            <p>Info</p>
+          </div>
+        </div>
+
+        <div
+          class="portfolio__carousel__slide__item"
+          data-slides="matrimoni"
+          id="card"
+        >
+          <h2>Matrimonio 4</h2>
+          <div class="portfolio__carousel__slide__item__caption">
+            <p>Info</p>
+          </div>
+        </div>
+
+        <div
+          class="portfolio__carousel__slide__item"
+          data-slides="videoclip"
+          id="card"
+        >
+          <h2>Videoclip 1</h2>
+          <div class="portfolio__carousel__slide__item__caption">
+            <p>Info</p>
+          </div>
+        </div>
+
+        <div
+          class="portfolio__carousel__slide__item"
+          data-slides="videoclip"
+          id="card"
+        >
+          <h2>Videoclip 2</h2>
+          <div class="portfolio__carousel__slide__item__caption">
+            <p>Info</p>
+          </div>
+        </div>
+
+        <div
+          class="portfolio__carousel__slide__item"
+          data-slides="videoclip"
+          id="card"
+        >
+          <h2>Videoclip 3</h2>
+          <div class="portfolio__carousel__slide__item__caption">
+            <p>Info</p>
+          </div>
+        </div>
+        <div
+          class="portfolio__carousel__slide__item"
+          data-slides="videoclip"
+          id="card"
+        >
+          <h2>Videoclip 4</h2>
+          <div class="portfolio__carousel__slide__item__caption">
+            <p>Info</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <ul class="records">
+        <li class="record" data-record="all">Tutti</li>
+        <li class="record" data-record="matrimonio">Matrimonio</li>
+        <li class="record" data-record="videoclip">Videoclip</li>
+      </ul>
+      <div class="record_container">
+        <div class="item" data-record="matrimonio">Matrimonio 1</div>
+        <div class="item" data-record="matrimonio">Matrimonio 2</div>
+        <div class="item" data-record="matrimonio">Matrimonio 3</div>
+        <div class="item" data-record="videoclip">Videoclip 1</div>
+        <div class="item" data-record="videoclip">Videoclip 2</div>
+        <div class="item" data-record="videoclip">Videoclip 3</div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
